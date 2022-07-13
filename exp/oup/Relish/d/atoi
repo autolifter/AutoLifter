@@ -1,0 +1,27 @@
+Lifting (atoi Param0) for tree
+	(0): (len Param0)
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (atoi Param0) in Task tree
+(+ (int Param3) (* (int Param2) (pow10 (int Param1))))
+	(0): (len Param0)
+	(1): (len Param1)
+	(2): (atoi Param0)
+	(3): (atoi Param1)
+Lifting (len Param0) for tree
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (len Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (len Param0)
+	(1): (len Param1)
+Success
+x0: (atoi Param0)
+Liftings:
+  x1: (len Param0)
+Combinator for tree
+  x0: r0+l0*pow10 r1
+  x1: l1+r1
+|               |   external |    lifting |   #lifting |
+|           atoi|    2.17267 |   0.198623 |          2 |
+Total time cost: 2.3713

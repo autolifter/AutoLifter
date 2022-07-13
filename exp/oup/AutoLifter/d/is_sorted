@@ -1,0 +1,39 @@
+Lifting (is_sorted Param0) for tree
+	(0): (head Param0)
+	(1): (last Param0)
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (is_sorted Param0) in Task tree
+(ite (and (and (< Param2 Param1) (<= 1 Param5)) (<= 1 Param4)) 1 0)
+	(0): (head Param0)
+	(1): (head Param1)
+	(2): (last Param0)
+	(3): (last Param1)
+	(4): (is_sorted Param0)
+	(5): (is_sorted Param1)
+Lifting (head Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (head Param0) in Task tree
+(int Param0)
+	(0): (head Param0)
+	(1): (head Param1)
+Lifting (last Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (last Param0) in Task tree
+(int Param1)
+	(0): (last Param0)
+	(1): (last Param1)
+Success
+x0: (is_sorted Param0)
+Liftings:
+  x1: (head Param0)
+  x2: (last Param0)
+Combinator for tree
+  x0: ite (l2<r1&&1<=r0&&1<=l0) (1) (0)
+  x1: l1
+  x2: r2
+|               |   external |    lifting |   #lifting |      #turn |
+|      is_sorted|   0.139851 |   0.445614 |          3 |         10 |
+Total time cost: 0.585465

@@ -1,0 +1,4 @@
+Lifting (max_dist_between_zeros Param0) for tree
+	(0): (sum (scanr * (map (+ 3) Param0)))
+
+Academic license - for non-commercial use only - expires 2022-10-07

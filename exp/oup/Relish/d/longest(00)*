@@ -1,0 +1,4 @@
+Lifting (longest(00)* Param0) for tree
+	(0): (sum (scanl * (map (- 3) Param0)))
+
+Academic license - for non-commercial use only - expires 2022-10-07

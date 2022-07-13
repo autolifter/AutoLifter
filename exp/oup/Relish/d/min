@@ -1,0 +1,15 @@
+Lifting (min Param0) for tree
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (min Param0) in Task tree
+(ite (<= Param1 Param0) (int Param1) (int Param0))
+	(0): (min Param0)
+	(1): (min Param1)
+Success
+x0: (min Param0)
+Liftings:
+Combinator for tree
+  x0: ite (r0<=l0) (r0) (l0)
+|               |   external |    lifting |   #lifting |
+|            min|   0.014314 |   0.104012 |          1 |
+Total time cost: 0.118326

@@ -1,0 +1,10 @@
+Lifting (mts Param0) for tree
+	(0): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (mts Param0) in Task tree
+(ite (<= Param3 (+ Param1 Param2)) (+ (int Param1) (int Param2)) (int Param3))
+	(0): (sum Param0)
+	(1): (sum Param1)
+	(2): (mts Param0)
+	(3): (mts Param1)

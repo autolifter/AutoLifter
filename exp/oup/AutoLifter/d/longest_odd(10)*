@@ -1,0 +1,87 @@
+Lifting (longest_odd_(10*) Param0) for tree
+	(0): (head Param0)
+	(1): (last Param0)
+	(2): (sum (prefix_0*1(0+1)* Param0))
+	(3): (sum (suffix_((0+1)*0*)+ Param0))
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (longest_odd_(10*) Param0) in Task tree
+(ite (or (and (and (< Param1 (is_even (+ (+ Param5 Param6) -1))) (< Param8 (+ (+ Param5 Param6) -1))) (< Param0 Param6)) (and (and (< Param2 (is_even (+ (+ Param5 Param6) -1))) (< Param8 (+ (+ Param5 Param6) -1))) (< Param9 (+ (+ Param5 Param6) -1)))) (+ (+ (int Param5) (int Param6)) -1) (ite (or (and (and (< Param1 (is_even (+ Param5 Param6))) (< Param9 (+ (+ Param5 Param6) -1))) (<= Param8 (+ (+ Param5 Param6) -1))) (and (and (< Param2 (is_even (+ Param5 Param6))) (<= Param9 (+ (+ Param5 Param6) -1))) (<= Param8 (+ (+ Param5 Param6) -1)))) (+ (int Param5) (int Param6)) (ite (<= Param8 Param9) (int Param9) (int Param8))))
+	(0): (head Param0)
+	(1): (head Param1)
+	(2): (last Param0)
+	(3): (last Param1)
+	(4): (sum (prefix_0*1(0+1)* Param0))
+	(5): (sum (prefix_0*1(0+1)* Param1))
+	(6): (sum (suffix_((0+1)*0*)+ Param0))
+	(7): (sum (suffix_((0+1)*0*)+ Param1))
+	(8): (longest_odd_(10*) Param0)
+	(9): (longest_odd_(10*) Param1)
+Lifting (head Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (head Param0) in Task tree
+(int Param0)
+	(0): (head Param0)
+	(1): (head Param1)
+Lifting (last Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (last Param0) in Task tree
+(int Param1)
+	(0): (last Param0)
+	(1): (last Param1)
+Lifting (sum (prefix_0*1(0+1)* Param0)) for tree
+	(0): (head Param0)
+	(1): (last Param0)
+	(2): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (sum (prefix_0*1(0+1)* Param0)) in Task tree
+(ite (and (<= Param4 Param6) (<= (+ Param1 Param2) 1)) (+ (int Param4) (int Param7)) (int Param6))
+	(0): (head Param0)
+	(1): (head Param1)
+	(2): (last Param0)
+	(3): (last Param1)
+	(4): (sum Param0)
+	(5): (sum Param1)
+	(6): (sum (prefix_0*1(0+1)* Param0))
+	(7): (sum (prefix_0*1(0+1)* Param1))
+Lifting (sum (suffix_((0+1)*0*)+ Param0)) for tree
+	(0): (last Param0)
+	(1): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (sum (suffix_((0+1)*0*)+ Param0)) in Task tree
+(ite (or (<= Param3 Param5) (and (<= Param0 0) (<= Param3 (+ Param5 1)))) (+ (int Param3) (int Param4)) (int Param5))
+	(0): (last Param0)
+	(1): (last Param1)
+	(2): (sum Param0)
+	(3): (sum Param1)
+	(4): (sum (suffix_((0+1)*0*)+ Param0))
+	(5): (sum (suffix_((0+1)*0*)+ Param1))
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Success
+x0: (longest_odd_(10*) Param0)
+Liftings:
+  x1: (head Param0)
+  x2: (last Param0)
+  x3: (sum (prefix_0*1(0+1)* Param0))
+  x4: (sum (suffix_((0+1)*0*)+ Param0))
+  x5: (sum Param0)
+Combinator for tree
+  x0: ite (r1<is_even r3+l4+-1&&l0<r3+l4+-1&&l1<l4||l2<is_even r3+l4+-1&&l0<r3+l4+-1&&r0<r3+l4+-1) (r3+l4+-1) (ite (r1<is_even r3+l4&&r0<r3+l4+-1&&l0<=r3+l4+-1||l2<is_even r3+l4&&r0<=r3+l4+-1&&l0<=r3+l4+-1) (r3+l4) (ite (l0<=r0) (r0) (l0)))
+  x1: l1
+  x2: r2
+  x3: ite (l5<=l3&&r1+l2<=1) (l5+r3) (l3)
+  x4: ite (r5<=r4||l2<=0&&r5<=r4+1) (r5+l4) (r4)
+  x5: l5+r5
+|               |   external |    lifting |   #lifting |      #turn |
+|longest_odd(10)*|     32.412 |    57.5069 |          6 |        242 |
+Total time cost: 89.9188

@@ -1,0 +1,60 @@
+Lifting (mpp Param0) for tree
+	(0): (head (scanr * Param0))
+	(1): (minimum (scanl * Param0))
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (mpp Param0) in Task tree
+(ite (and (< Param4 (* Param0 Param3)) (< Param0 0)) (* (int Param0) (int Param3)) (ite (and (<= Param4 Param0) (<= Param0 (* Param4 Param5))) (* (int Param4) (int Param5)) (int Param4)))
+	(0): (head (scanr * Param0))
+	(1): (head (scanr * Param1))
+	(2): (minimum (scanl * Param0))
+	(3): (minimum (scanl * Param1))
+	(4): (mpp Param0)
+	(5): (mpp Param1)
+Lifting (head (scanr * Param0)) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (head (scanr * Param0)) in Task tree
+(* (int Param0) (int Param1))
+	(0): (head (scanr * Param0))
+	(1): (head (scanr * Param1))
+Lifting (minimum (scanl * Param0)) for tree
+	(0): (head (scanr * Param0))
+	(1): (maximum (scanl * Param0))
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (minimum (scanl * Param0)) in Task tree
+(ite (and (<= (* Param2 Param5) Param4) (<= 1 Param0)) (* (int Param2) (int Param5)) (ite (<= (* Param0 Param3) Param4) (* (int Param0) (int Param3)) (int Param4)))
+	(0): (head (scanr * Param0))
+	(1): (head (scanr * Param1))
+	(2): (maximum (scanl * Param0))
+	(3): (maximum (scanl * Param1))
+	(4): (minimum (scanl * Param0))
+	(5): (minimum (scanl * Param1))
+Lifting (maximum (scanl * Param0)) for tree
+	(0): (head (scanr * Param0))
+	(1): (minimum (scanl * Param0))
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (maximum (scanl * Param0)) in Task tree
+(ite (and (< Param4 (* Param0 Param3)) (< Param0 0)) (* (int Param0) (int Param3)) (ite (and (<= Param4 Param0) (<= Param0 (* Param4 Param5))) (* (int Param4) (int Param5)) (int Param4)))
+	(0): (head (scanr * Param0))
+	(1): (head (scanr * Param1))
+	(2): (minimum (scanl * Param0))
+	(3): (minimum (scanl * Param1))
+	(4): (maximum (scanl * Param0))
+	(5): (maximum (scanl * Param1))
+Success
+x0: (mpp Param0)
+Liftings:
+  x1: (head (scanr * Param0))
+  x2: (minimum (scanl * Param0))
+  x3: (maximum (scanl * Param0))
+Combinator for tree
+  x0: ite (l0<l1*r2&&l1<0) (l1*r2) (ite (l0<=l1&&l1<=l0*r0) (l0*r0) (l0))
+  x1: l1*r1
+  x2: ite (l3*r2<=l2&&1<=l1) (l3*r2) (ite (l1*r3<=l2) (l1*r3) (l2))
+  x3: ite (l3<l1*r2&&l1<0) (l1*r2) (ite (l3<=l1&&l1<=l3*r3) (l3*r3) (l3))
+|               |   external |    lifting |   #lifting |      #turn |
+|            mpp|    16.1138 |    4.15484 |          4 |        250 |
+Total time cost: 20.2687

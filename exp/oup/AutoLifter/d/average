@@ -1,0 +1,39 @@
+Lifting (average Param0) for tree
+	(0): (len Param0)
+	(1): (sum Param0)
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (average Param0) in Task tree
+(div (+ (int Param2) (int Param3)) (+ (int Param0) (int Param1)))
+	(0): (len Param0)
+	(1): (len Param1)
+	(2): (sum Param0)
+	(3): (sum Param1)
+	(4): (average Param0)
+	(5): (average Param1)
+Lifting (len Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (len Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (len Param0)
+	(1): (len Param1)
+Lifting (sum Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (sum Param0) in Task tree
+(+ (int Param0) (int Param1))
+	(0): (sum Param0)
+	(1): (sum Param1)
+Success
+x0: (average Param0)
+Liftings:
+  x1: (len Param0)
+  x2: (sum Param0)
+Combinator for tree
+  x0: (l2+r2)/(l1+r1)
+  x1: l1+r1
+  x2: l2+r2
+|               |   external |    lifting |   #lifting |      #turn |
+|        average|    48.4672 |    0.49162 |          3 |         15 |
+Total time cost: 48.9588

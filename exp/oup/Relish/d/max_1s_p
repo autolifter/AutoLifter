@@ -1,0 +1,4 @@
+Lifting (max_1s_p Param0) for tree
+	(0): (sum (scanr * (map (+ 2) Param0)))
+
+Academic license - for non-commercial use only - expires 2022-10-07

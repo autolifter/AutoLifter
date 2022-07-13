@@ -1,0 +1,39 @@
+Lifting (0after1 Param0) for tree
+	(0): (head Param0)
+	(1): (last Param0)
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (0after1 Param0) in Task tree
+(ite (and (< Param4 Param1) (< Param5 Param1)) 0 (ite (and (<= Param4 Param2) (<= Param5 Param2)) (int Param2) 1))
+	(0): (head Param0)
+	(1): (head Param1)
+	(2): (last Param0)
+	(3): (last Param1)
+	(4): (0after1 Param0)
+	(5): (0after1 Param1)
+Lifting (head Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (head Param0) in Task tree
+(int Param0)
+	(0): (head Param0)
+	(1): (head Param1)
+Lifting (last Param0) for tree
+
+Academic license - for non-commercial use only - expires 2021-08-22
+Merging for (last Param0) in Task tree
+(int Param1)
+	(0): (last Param0)
+	(1): (last Param1)
+Success
+x0: (0after1 Param0)
+Liftings:
+  x1: (head Param0)
+  x2: (last Param0)
+Combinator for tree
+  x0: ite (l0<r1&&r0<r1) (0) (ite (l0<=l2&&r0<=l2) (l2) (1))
+  x1: l1
+  x2: r2
+|               |   external |    lifting |   #lifting |      #turn |
+|        0after1|   0.080314 |   0.393383 |          3 |          9 |
+Total time cost: 0.473697

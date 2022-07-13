@@ -1,0 +1,347 @@
+{
+    "dad": {
+        "sum": {
+            "status": "success",
+            "time": {
+                "ex": 0.033716,
+                "lift": 0.106832,
+                "total": 0.140548
+            },
+            "lift_num": 1
+        },
+        "min": {
+            "status": "success",
+            "time": {
+                "ex": 0.014314,
+                "lift": 0.104012,
+                "total": 0.118326
+            },
+            "lift_num": 1
+        },
+        "max": {
+            "status": "success",
+            "time": {
+                "ex": 0.014254,
+                "lift": 0.103614,
+                "total": 0.117868
+            },
+            "lift_num": 1
+        },
+        "length": {
+            "status": "success",
+            "time": {
+                "ex": 0.010346,
+                "lift": 0.101174,
+                "total": 0.11152
+            },
+            "lift_num": 1
+        },
+        "2nd-min": {
+            "status": "success",
+            "time": {
+                "ex": 0.08722,
+                "lift": 0.209002,
+                "total": 0.296222
+            },
+            "lift_num": 2
+        },
+        "mps": {
+            "status": "success",
+            "time": {
+                "ex": 0.090998,
+                "lift": 0.220033,
+                "total": 0.311031
+            },
+            "lift_num": 2
+        },
+        "mts": {
+            "status": "success",
+            "time": {
+                "ex": 0.090977,
+                "lift": 0.220417,
+                "total": 0.311394
+            },
+            "lift_num": 2
+        },
+        "mss": {
+            "status": "fail"
+        },
+        "mps_p": {
+            "status": "fail"
+        },
+        "mts_p": {
+            "status": "fail"
+        },
+        "is_sorted": {
+            "status": "success",
+            "time": {
+                "ex": 0.153528,
+                "lift": 1.52389,
+                "total": 1.67741
+            },
+            "lift_num": 3
+        },
+        "atoi": {
+            "status": "success",
+            "time": {
+                "ex": 2.17267,
+                "lift": 0.198623,
+                "total": 2.3713
+            },
+            "lift_num": 2
+        },
+        "dropwhile": {
+            "status": "success",
+            "time": {
+                "ex": 0.065732,
+                "lift": 0.759565,
+                "total": 0.825297
+            },
+            "lift_num": 3
+        },
+        "balanced": {
+            "status": "fail"
+        },
+        "0*1*": {
+            "status": "success",
+            "time": {
+                "ex": 0.23744,
+                "lift": 0.754971,
+                "total": 0.992411
+            },
+            "lift_num": 3
+        },
+        "0after1": {
+            "status": "success",
+            "time": {
+                "ex": 0.24817,
+                "lift": 0.786348,
+                "total": 1.03452
+            },
+            "lift_num": 3
+        },
+        "cnt_1s": {
+            "status": "success",
+            "time": {
+                "ex": 0.11071,
+                "lift": 2.38882,
+                "total": 2.49953
+            },
+            "lift_num": 3
+        },
+        "line_sight": {
+            "status": "success",
+            "time": {
+                "ex": 0.037584,
+                "lift": 0.207336,
+                "total": 0.24492
+            },
+            "lift_num": 2
+        },
+        "max_len_1s": {
+            "status": "fail"
+        },
+        "average": {
+            "status": "success",
+            "time": {
+                "ex": 76.1041,
+                "lift": 12.3429,
+                "total": 88.447
+            },
+            "lift_num": 3
+        },
+        "count1(0+)": {
+            "status": "fail"
+        },
+        "count1(0*)2": {
+            "status": "fail"
+        },
+        "count1*2*3*": {
+            "status": "fail"
+        },
+        "max_sum_between_ones": {
+            "status": "fail"
+        },
+        "max_dist_between_zeros": {
+            "status": "fail"
+        },
+        "lis": {
+            "status": "fail"
+        },
+        "largest_peak": {
+            "status": "fail"
+        },
+        "longest1*": {
+            "status": "fail"
+        },
+        "longest1(0*)2": {
+            "status": "fail"
+        },
+        "longest(00)*": {
+            "status": "fail"
+        },
+        "longest_odd(10)*": {
+            "status": "fail"
+        },
+        "3rd-min": {
+            "status": "fail"
+        },
+        "mpp": {
+            "status": "fail"
+        },
+        "mtp": {
+            "status": "fail"
+        },
+        "msp": {
+            "status": "fail"
+        },
+        "max_1s_p": {
+            "status": "fail"
+        }
+    },
+    "seg": {
+        "page9-1": {
+            "status": "success",
+            "time": {
+                "ex": 0.052238,
+                "lift": 0.149747,
+                "total": 0.201985
+            },
+            "lift_num": 2
+        },
+        "page9-2": {
+            "status": "success",
+            "time": {
+                "ex": 0.035059,
+                "lift": 0.149302,
+                "total": 0.184361
+            },
+            "lift_num": 2
+        },
+        "page10-1": {
+            "status": "success",
+            "time": {
+                "ex": 0.428566,
+                "lift": 3.35153,
+                "total": 3.7801
+            },
+            "lift_num": 3
+        },
+        "page12": {
+            "status": "success",
+            "time": {
+                "ex": 0.096052,
+                "lift": 0.761412,
+                "total": 0.857464
+            },
+            "lift_num": 2
+        },
+        "page20": {
+            "status": "success",
+            "time": {
+                "ex": 0.184839,
+                "lift": 0.337582,
+                "total": 0.522421
+            },
+            "lift_num": 2
+        },
+        "page21": {
+            "status": "success",
+            "time": {
+                "ex": 0.772825,
+                "lift": 7.38741,
+                "total": 8.16023
+            },
+            "lift_num": 4
+        },
+        "page22-1": {
+            "status": "success",
+            "time": {
+                "ex": 2.4019,
+                "lift": 2.92477,
+                "total": 5.32667
+            },
+            "lift_num": 3
+        },
+        "page22-2": {
+            "status": "success",
+            "time": {
+                "ex": 15.9958,
+                "lift": 2.5221,
+                "total": 18.5179
+            },
+            "lift_num": 3
+        }
+    },
+    "ds": {
+        "sum@+": {
+            "status": "success",
+            "time": {
+                "ex": 0.107915,
+                "lift": 0.377838,
+                "total": 0.485753
+            },
+            "lift_num": 2
+        },
+        "sum@cover": {
+            "status": "success",
+            "time": {
+                "ex": 0.073149,
+                "lift": 0.40618,
+                "total": 0.479329
+            },
+            "lift_num": 2
+        },
+        "sqrsum@+": {
+            "status": "success",
+            "time": {
+                "ex": 87.1668,
+                "lift": 1.05994,
+                "total": 88.2268
+            },
+            "lift_num": 3
+        },
+        "sqrsum@cover": {
+            "status": "success",
+            "time": {
+                "ex": 0.223485,
+                "lift": 0.386198,
+                "total": 0.609683
+            },
+            "lift_num": 2
+        },
+        "mts@-": {
+            "status": "fail"
+        },
+        "mts@cover": {
+            "status": "fail"
+        },
+        "mss@-": {
+            "status": "fail"
+        },
+        "mss@cover": {
+            "status": "fail"
+        },
+        "min@-": {
+            "status": "success",
+            "time": {
+                "ex": 0.076817,
+                "lift": 0.41104,
+                "total": 0.487857
+            },
+            "lift_num": 2
+        },
+        "2nd-min@-": {
+            "status": "fail"
+        },
+        "3rd-min@-": {
+            "status": "fail"
+        },
+        "max-1s@cover": {
+            "status": "fail"
+        },
+        "max-1s-p@cover": {
+            "status": "fail"
+        }
+    }
+}

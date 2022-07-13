@@ -1,0 +1,37 @@
+Lifting (page10-1 Param0) for listr
+	(0): (last Param0)
+	(1): (head Param0)
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (page10-1 Param0) in Task listr
+(ite (or (= Param1 1000000000) (and (<= Param2 Param0) (<= Param0 (+ Param1 Param3)))) (int Param3) 0)
+	(0): Param0
+	(1): (last Param1)
+	(2): (head Param1)
+	(3): (page10-1 Param1)
+Lifting (last Param0) for listr
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (last Param0) in Task listr
+(int Param0)
+	(0): Param0
+	(1): (last Param1)
+Lifting (head Param0) for listr
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (head Param0) in Task listr
+(ite (= Param1 1000000000) (int Param0) (int Param1))
+	(0): Param0
+	(1): (head Param1)
+Success
+x0: (page10-1 Param0)
+Liftings:
+  x1: (last Param0)
+  x2: (head Param0)
+Combinator for listr
+  x0: ite (l1=1000000000||l2<=a&&a<=l1+l0) (l0) (0)
+  x1: a
+  x2: ite (l2=1000000000) (a) (l2)
+|               |   external |    lifting |   #lifting |
+|       page10-1|   0.428566 |    3.35153 |          3 |
+Total time cost: 3.7801

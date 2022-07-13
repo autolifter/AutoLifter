@@ -1,0 +1,42 @@
+Lifting (page22-1 Param0) for segment
+	(0): (minimum Param0)
+	(1): (len Param0)
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (page22-1 Param0) in Task segment
+(ite (and (and (<= (+ (+ Param3 Param4) 1) (+ Param0 Param2)) (<= (+ (+ Param3 Param4) 1) (+ Param0 Param1))) (< Param6 Param5)) (int Param5) (ite (and (<= (+ (+ Param3 Param4) 1) (+ Param0 Param1)) (<= (+ (+ Param3 Param4) 1) (+ Param0 Param2))) (int Param6) (+ (+ (int Param3) (int Param4)) 1)))
+	(0): Param0
+	(1): (minimum Param1)
+	(2): (minimum Param2)
+	(3): (len Param1)
+	(4): (len Param2)
+	(5): (page22-1 Param1)
+	(6): (page22-1 Param2)
+Lifting (minimum Param0) for segment
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (minimum Param0) in Task segment
+(ite (<= Param1 Param2) (int Param1) (int Param2))
+	(0): Param0
+	(1): (minimum Param1)
+	(2): (minimum Param2)
+Lifting (len Param0) for segment
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (len Param0) in Task segment
+(+ (+ (int Param1) (int Param2)) 1)
+	(0): Param0
+	(1): (len Param1)
+	(2): (len Param2)
+Success
+x0: (page22-1 Param0)
+Liftings:
+  x1: (minimum Param0)
+  x2: (len Param0)
+Combinator for segment
+  x0: ite (l2+r2+1<=a+r1&&l2+r2+1<=a+l1&&r0<l0) (l0) (ite (l2+r2+1<=a+l1&&l2+r2+1<=a+r1) (r0) (l2+r2+1))
+  x1: ite (l1<=r1) (l1) (r1)
+  x2: l2+r2+1
+|               |   external |    lifting |   #lifting |
+|       page22-1|     2.4019 |    2.92477 |          3 |
+Total time cost: 5.32667

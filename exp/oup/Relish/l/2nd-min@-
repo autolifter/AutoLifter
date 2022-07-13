@@ -1,0 +1,10 @@
+Lifting (2nd-min Param0) for tree
+	(0): (minimum Param0)
+
+Academic license - for non-commercial use only - expires 2022-10-07
+Merging for (2nd-min Param0) in Task tree
+(ite (<= Param3 Param0) (int Param3) (ite (<= Param2 Param1) (int Param2) (ite (<= Param1 Param0) (int Param0) (int Param1))))
+	(0): (minimum Param0)
+	(1): (minimum Param1)
+	(2): (2nd-min Param0)
+	(3): (2nd-min Param1)

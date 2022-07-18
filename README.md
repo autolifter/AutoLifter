@@ -1,5 +1,9 @@
 The supplementary material for POPL23 submission "Divide and Conquer Divide-and-Conquer -- Black-Box Synthesis for Efficient Algorithms on Data Structures"
 
+#### Appendix 
+
+The appendix of the submitted paper can be found in `extended-paper.pdf`.
+
 #### Source Code
 
 Our implementation of *AutoLifter* is stored in folder `cpp`, which is organized in the following way.
